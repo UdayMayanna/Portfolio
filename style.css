@@ -1,0 +1,244 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #04040d;
+}
+
+.navbar{
+    height: 50px;
+    width: 99%;
+    margin-left: 7px;
+    border-radius: 10px;
+    background-image: linear-gradient(orangered,#494c7c);
+    text-align: center;
+    overflow:hidden;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.navbar a{
+    color: #ededed;
+    text-decoration: none;
+    font-size:1.2rem;
+    border-radius: 10px;
+    padding: 10px;
+}
+.navbar a:hover{
+    color: #000000;
+}
+.navitems{
+    margin-top: 12px;
+    float: right;
+    margin-right: 15px;
+}
+.nav-name
+{
+    color:#ffffff;
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 2.2rem;
+    font-family: Times;
+}
+.mainHording1{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 350px;
+    background-image: linear-gradient(orangered,#AAABB8);
+    border-radius: 15px;
+}
+
+.mainHording1 h1{
+    color:#ffffff;
+    font-size: 2.5rem;
+    margin-top: 100px;
+}
+.mainHording1 h2{
+    color:#ffffff;
+}
+
+section{
+    display: flex;
+}
+
+main{
+    text-align: center;
+    color: #AAABB8;
+}
+main h1{
+    margin-top: 60px;
+    color: orangered;
+    margin-bottom: 10px;
+}
+.mainHording2{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    margin-top: 350px;
+    margin-left: -40px;
+    background-image: linear-gradient(orangered,#AAABB8);;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.mainHording2 img{
+    height: 350px;
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: #AAABB8; 
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+}
+
+.mainHording2 img:hover{
+    transform: scale(1.4);
+}
+
+#About{
+    line-height: 30px;
+}
+.content1{
+    line-height: 30px;
+    margin-left: 20px;
+}
+#About a{
+  text-decoration: none;
+  color:#29648A
+}
+#Resume{
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+#Resume h3{
+    margin-top: 10px;
+}
+.education{
+    display: flex;
+    justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+.level-of-education{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    width: 350px;
+}
+.education-info{
+    display: inline-block;
+    font-size: 25px;
+    line-height: 30px;
+    border-left: 1.5px solid #ffffff;
+    padding-left: 30px;
+    width: 350px;
+
+}
+.internships{
+    display: flex;
+    justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+.compony{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    width: 350px;
+}
+.workdone{
+    display: inline-block;
+    font-size: 25px;
+    line-height: 30px;
+    border-left: 1.5px solid #ffffff;
+    padding-left: 30px;
+    width: 350px;
+
+}
+.workdone p{
+    font-size: 18px;
+}
+.workdone a{
+    text-decoration: none;
+    color:#29648A
+}
+#contact{
+    display: flex;
+}
+#contact h3{
+    margin-bottom: 10px;
+}
+.address{
+  margin:10px;
+  width: 30vw;
+  line-height: 30px;
+}
+.usefull-links
+{
+    margin:10px;
+    width: 30vw;
+}
+.usefull-links a{
+    text-decoration: none;
+    color:#29648A
+}
+.connect{
+    margin:10px;
+    width: 30vw;
+    height: 100px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.social-media img{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+#Project{
+margin-top: 20px;
+margin-left: 60px;
+justify-content: center;
+align-items: center;
+display: flex;
+background-color: #c9c9c9;
+color: #000000;
+width: 90%;
+border-radius: 15px;
+}
+.project-image
+{
+    display: inline-block;
+   height: 260px;
+   width: 450px;
+   justify-content: center;
+   align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.project-image img{
+    height: 260px;
+    width: 450px;
+    border-radius: 15px;
+ }
+.project-info{
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 30px;
+    text-align: center;
+    display: inline-block;
+}
