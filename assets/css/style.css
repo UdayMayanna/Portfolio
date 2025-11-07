@@ -142,4 +142,8 @@ div#header {
     .banner-text {
         font-size: 32px;
     }
+
+    .banner{
+        padding-top:100px ;
+    }
 }
